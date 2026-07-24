@@ -1,20 +1,78 @@
 aid: butter-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/butter-systems.png
 name: Butter Systems
-description: Butter Systems is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Butter Systems was a San Francisco restaurant-technology startup founded
+  in 2013 by Sam Brin and Jon Li and backed by Y Combinator (batch S13). The company
+  replaced the paper restaurant menu with a locked-down tablet at the table, letting
+  diners browse an interactive menu, place food and drink orders on demand without
+  waiting for a server, and request the check, while restaurant operators adjusted
+  menu items, pricing, and promotions on the fly through a web back office. Butter
+  Systems raised roughly $120K across two seed rounds in 2013 from Y Combinator and
+  Fenox Venture Capital, and shut down in 2014. Y Combinator lists the company as
+  inactive, and its buttersystems.com domain is now a parked "domain may be for sale"
+  page. Butter Systems published no public API, developer portal, SDK, or machine-readable
+  specification, and none survives in the Internet Archive record; it is retained
+  in the API Evangelist network as a closed-company reference only.'
 url: https://raw.githubusercontent.com/api-evangelist/butter-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-backed-by-verified: false
+x-backed-by-note: 'Enrichment could not corroborate an a16z investment. Public sources
+  (Crunchbase, Tracxn, FinSMEs, Y Combinator) attribute Butter Systems'' 2013 seed
+  funding to Y Combinator and Fenox Venture Capital only. The a16z attribution came
+  from the VC-portfolio harvest and should be treated as unverified.'
+x-status: defunct
+x-status-detail: 'Shut down in 2014; Y Combinator lists the company as inactive. buttersystems.com
+  resolves (HTTP 200) but serves a parked domain-for-sale page. api./docs./developer.buttersystems.com
+  do not resolve. /.well-known/security.txt and /llms.txt both return 404.'
+x-founded: '2013'
+x-closed: '2014'
+x-accelerator: Y Combinator S13
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Restaurant Technology
+- Point of Sale
+- Food and Beverage
+- Ordering
+- Tablet
+- Y Combinator
+- Defunct
 apis: []
+common:
+- type: GitHubOrganization
+  name: Butter Systems on GitHub
+  url: https://github.com/buttersystems
+- type: CompanyProfile
+  name: Butter Systems on Y Combinator
+  url: https://www.ycombinator.com/companies/butter-systems
+- type: CompanyProfile
+  name: Butter Systems on Crunchbase
+  url: https://www.crunchbase.com/organization/butter-systems
+- type: Archive
+  name: buttersystems.com in the Internet Archive
+  url: https://web.archive.org/web/*/buttersystems.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
